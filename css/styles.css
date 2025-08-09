@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    background-color: #fff
+}
+
+img {
+    width: 5%;
+    height: auto;
+}
+
+nav li{
+    list-style-type: none;
+    font-size: 100%;
+}
+
+hr{
+    border-width: 10px;
+    border-style: dotted none none;
+    width: 10%;
+    color: #ead7c4;
+}
+
+.general_color{
+    color: rgb(72, 195, 98);
+}
+
+nav a:hover{
+    color: #4e7970;
+}
+
+/* introduction */
+.introduction{
+    text-align: center;
+}
+
+.introduction p{
+    font-size: 36px;
+    font-family: sans-serif;
+    color: #4ab19a;
+    font-weight: 300;
+}
+
+.introduction h1{
+    font-family: "Parisienne", cursive;
+    font-size: 80px;
+    color: #4ab19a;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #83e0a7;
+    padding: 2rem 0;
+}
+
+#navbar ul{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+/* introduction content */
+
+#introduction{
+    text-align: center;
+}
+
+
+#introduction p{
+    width: 30%;
+    margin: 0 auto
+}
+
+/* Ability */
+#ability{
+     margin: 0 20%;   
+     text-align: center;
+}
+
+#ability .item{
+    flex: 1;
+}
+
+#ability > div{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+#ability img{
+    width: 40%;
+}
+
+footer{
+    text-align: center;
+    background-color: #83e0a7;
+    padding: 3rem 0;
+}
